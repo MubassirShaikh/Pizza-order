@@ -1,0 +1,42 @@
+#pizza-container {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #base-container {
+    width: 80%;
+    height: 80%;
+    position: relative;
+  }
+  
+  #pizza-base {
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .topping {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .topping img {
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 2;
+  }
+  
